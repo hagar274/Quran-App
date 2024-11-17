@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 600){
+    .surah img{
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+}
+
+@media(max-width: 300){
+    .surah img{
+        display: block !important;
+        width: 90% !important;
+        min-height: 0;
+    }
+}
